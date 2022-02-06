@@ -296,13 +296,7 @@ Finally, Apache was reloaded so the changes was effected. The below code was use
 `$ sudo systemctl reload apache2`
 
 Excellent, the new website is active! However, the web root /var/www/webstacklamp is still empty. An index.html file  was created in that location so that testing can be performed to see that the virtual host works as expected. The command used is 
-
-`sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/webstacklamp/index.html`
-
-The website opened on the browser using the address
-
-http://<Public-IP-Address>:80
-
+ 
 ![](./Images/Hellolamp.png)
 
 ## Enable PHP on the website
@@ -330,7 +324,7 @@ $ vim /var/www/projectlamp/index.php
 
 This opened a blank file and the following text, which is valid PHP code was added into the file:
 
-<?php
+?php
 phpinfo();
 
 When finished, the author saved, close the file, refresh the page and a page similar to this was generate 
