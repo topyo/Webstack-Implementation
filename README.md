@@ -291,7 +291,7 @@ To make sure the configuration file doesn’t contain syntax errors, the below c
 
 `$ sudo apache2ctl configtest`
 
-Finally, Apache was reloaded so the changes was effected. The below code was used
+Finally, Apache was reloaded so that the changes can be effected effected using the code
 
 `$ sudo systemctl reload apache2`
 
