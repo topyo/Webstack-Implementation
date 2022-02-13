@@ -240,15 +240,16 @@ php -v
  ![](./Images/phpversion.png)
 
 ## Excellent! 
+
 ## The LAMP stack is completely installed and fully operational.
 
 To test the  setup with a PHP script, it’s best to set up a proper Apache Virtual Host to hold the website’s files and folders. Virtual host permits the hosting of multiple websites on a single machine.
 
-Creating a Virtual Host for the Website using Apache
+### Creating a Virtual Host for the Website using Apache
 
-A domain name called "webstacklamp" was set up and since Apache on Ubuntu 20.04 has one server block enabled by default that is configured to serve documents from the /var/www/html directory. This configuration was left as is and the authors directory was added to the default one.
+A domain name called "webstacklamp" was set up and since Apache on Ubuntu 20.04 has one server block enabled by default that is configured to serve documents from the /var/www/html directory. This configuration was left as is and the author's directory was added to the default one.
 
-The directory for Apache’s `sites-available` directory using was created using the command 
+The directory for Apache’s `sites-available' was created using the command 
 
 
 `$ sudo mkdir /var/www/webstacklamp`
