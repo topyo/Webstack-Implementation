@@ -332,9 +332,7 @@ When finished, the author saved, close the file, refresh the page and a page sim
 
 ![](./Images/Finally.png)
 
-N.B : For privacy, the some contents in the page were covered
-
-Credit: This guide was inspired by skill embassy(2022)
+N.B : For privacy, some contents in the page were covered
 
 
 
